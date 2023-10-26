@@ -144,6 +144,7 @@ public class DetailsActivity extends AppCompatActivity {
                 binding.itemDesc.setText(data.getDescription());
                 if (data.getPhotoUri() != null) {
                     if (!data.getPhotoUri().isEmpty()) {
+                        photoURI = data.getPhotoUri();
                         Glide.with(binding.getRoot().getContext())
                                 .load(data.getPhotoUri())
                                 .into(binding.uploadFileImg);
@@ -187,6 +188,8 @@ public class DetailsActivity extends AppCompatActivity {
 
             if(utils.isNotNOE(pictureStr)) {
                 photoURI = pictureStr;
+                userProfile.setPhotoUri(photoURI);
+            }else {
                 userProfile.setPhotoUri(photoURI);
             }
 
