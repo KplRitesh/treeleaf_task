@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <include
+      android:id="@+id/toolbar"
+      layout="@layout/toolbar_w_logo"/>
+
+   <com.google.android.material.textview.MaterialTextView
+       android:id="@+id/noItems"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/toolbar"
+       android:gravity="center"
+       android:text="@string/no_items_to_show_n_add_some_items"
+       android:textAlignment="center"
+       android:textSize="@dimen/_16sdp"
+       android:visibility="gone" />
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recyclerView"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/noItems"
+       android:clickable="true"
+       android:focusable="true"
+       tools:itemCount="2"
+       tools:listitem="@layout/item_user_profile"/>
+
+   <com.google.android.material.floatingactionbutton.FloatingActionButton
+       android:id="@+id/fab"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentBottom="true"
+       android:layout_marginEnd="16dp"
+       android:layout_marginBottom="16dp"
+       android:src="@android:drawable/ic_input_add"
+       android:contentDescription="@string/addNew" />
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="MaterialInputNoMargin" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:fontFamily">@font/nunito_sans_regular</item>
+    </style>
+
+    <style name="InputField">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:fontFamily">@font/nunito_sans_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">@dimen/_8sdp</item>
+        <item name="android:paddingBottom">@dimen/_8sdp</item>
+    </style>
+
+    <style name="MaterialDropListInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+        <item name="android:layout_marginBottom">@dimen/_8sdp</item>
+        <item name="android:textColorHint">@color/lightBlack</item>
+        <item name="android:fontFamily">@font/nunito_sans_regular</item>
+    </style>
+
+    <style name="AutoCompleteEditTextNonEditable" parent="Theme.MaterialComponents">
+        <item name="android:minHeight">36dp</item>
+        <!--        <item name="android:focusable">false</item>-->
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/nunito_sans_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingVertical" tools:ignore="NewApi">@dimen/_8sdp</item>
+        <item name="android:paddingTop">@dimen/_8sdp</item>
+        <item name="android:paddingBottom">@dimen/_8sdp</item>
+    </style>
+
+    <style name="AppAutoTextCompleteStyle" parent="Base.V7.Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:minHeight">36dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="fontFamily">@font/nunito_sans_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingVertical" tools:ignore="NewApi">@dimen/_8sdp</item>
+        <item name="android:paddingTop">@dimen/_8sdp</item>
+        <item name="android:paddingBottom">@dimen/_8sdp</item>
+    </style>
+
+    <style name="MaterialInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:fontFamily">@font/nunito_sans_regular</item>
+    </style>
+
+    <style name="NormalTextStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/nunito_sans_regular</item>
+    </style>
+
+    <style name="PageButtonStyle" parent="ShapeAppearanceOverlay.Material3.Button">
+        <item name="android:maxWidth">@dimen/_100sdp</item>
+        <item name="android:minWidth">@dimen/_48sdp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:paddingStart">@dimen/_8sdp</item>
+        <item name="android:paddingEnd">@dimen/_8sdp</item>
+        <item name="android:paddingLeft">@dimen/_8sdp</item>
+        <item name="android:paddingRight">@dimen/_8sdp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/style_button</item>
+    </style>
+
+    <style name="PageBtnSuccess" parent="PageButtonStyle">
+        <item name="android:backgroundTint">@color/success</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="PageBtnPrimary" parent="PageButtonStyle">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+    </style>
+    <style name="PageBtnDanger" parent="PageButtonStyle">
+        <item name="android:backgroundTint">@color/danger</item>
+    </style>
+</resources>

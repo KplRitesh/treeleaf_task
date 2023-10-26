@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="lightBlack">#363636</color>
+
+    <color name="colorAccent">#0071BC</color>
+    <color name="green">#37BB8D</color>
+    <color name="success">#19CD63</color>
+    <color name="bright_green">#05A200</color>
+    <color name="light_green">#D7F9E3</color>
+    <color name="life_less_green">#00dcb3</color>
+    <color name="treeLeaf_green">#008000</color>
+
+    <color name="red2">#EA2026</color>
+    <color name="light_red">#FEE1E2</color>
+    <color name="lava_red">#cc101d</color>
+    <color name="peevish_red">#ef4782</color>
+    <color name="danger">#e03051</color>
+    <color name="purple">#9C27B0</color>
+</resources>

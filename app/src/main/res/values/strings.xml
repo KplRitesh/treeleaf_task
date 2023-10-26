@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">treeleaf</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="_977">+977</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="others">Others</string>
+    <string name="desc">Description</string>
+    <string name="change_image">Change Image</string>
+    <string name="upload_picture">Upload Picture</string>
+    <string name="doc_max_size_sug">Please make sure that your document size is below 5MB.</string>
+    <string name="image">Image</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+    <string name="cancel">Cancel</string>
+    <string name="_name">Name :</string>
+    <string name="_gender">Gender :</string>
+    <string name="_email">Email :</string>
+    <string name="_address">Address :</string>
+    <string name="_phone">Phone :</string>
+    <string name="_desc">Description :</string>
+    <string name="addNew">add new</string>
+    <string name="no_items_to_show_n_add_some_items">No Items to show !! \n Add some Items !!</string>
+    <string name="delete">Delete</string>
+</resources>
